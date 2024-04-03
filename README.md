@@ -1,8 +1,7 @@
-# Online Examination System and Mock Test
+# Online MCQ Examination System 
 
-Version 1.0 
 
-Its an Online Examination System that takes MCQ Tests of Students in Schools and Universities/Collages.
+Its an Online Examination System that takes MCQ Tests of Students in Schools and Universities/Colleges.
 
 # Features -
 1. You Can Login With Different Accounts.
