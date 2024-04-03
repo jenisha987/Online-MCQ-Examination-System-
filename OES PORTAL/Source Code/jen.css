@@ -1,0 +1,369 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    width: 100%;
+    height: 13vh;
+    background: url(loogo.png);
+    background-position: left;
+    background-size: contain;
+    background-color: #602929;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+/* .head {
+    width: 1000px;
+    top: 2%;
+    left: 40%;
+    text-align: center;
+    position: absolute;
+    color: #fff;
+    font-family: sans-serif;
+} */
+
+.logo {
+    width: 1000px;
+    color: #fff;
+    font-size: 50px;
+    position: absolute;
+    left: 26%;
+    top: 2%;
+    font-family: initial;
+}
+
+.head1 {
+    width: 1000px;
+    top: 10%;
+    left: 42%;
+    position: absolute;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    position: relative;
+    background-color: burlywood;
+
+}
+
+.menu ul {
+    left: 50%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.menu ul li {
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+.menu ul li a {
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    transition: 0.2s ease-in-out;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul li a:hover {
+    border-bottom: 2px solid brown;
+}
+
+.active, .menu ul li :hover{
+    border-bottom: 2px solid brown;
+}
+
+.log {
+    left: 10%;
+    width: 550px;
+    height: 680px;
+    box-shadow: 0 0 80px 20px;
+}
+
+.log ul {
+    list-style: none;
+}
+
+.log ul li {
+    background-color: green;
+    width: 150px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+    margin-left: 50px;
+}
+
+.log ul li:hover {
+    background-color: lightgreen;
+}
+
+.log ul ul {
+    display: none;
+}
+
+.log ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.log ul li:hover>ul {
+    display: block;
+}
+
+.home {
+    background-color: rgb(244, 239, 239);
+    height: 600px;
+}
+
+.home1 {
+    float: right;
+}
+
+.home2 {
+    font-size: 30pt;
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 30%;
+}
+
+.home3 {
+    font-size: 20pt;
+}
+
+.home4 {
+    position: absolute;
+    top: 52%;
+    left: 6%;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    background: burlywood;
+    border: none;
+    font-size: 18px;
+    border-radius: 40px;
+    cursor: pointer;
+    color: #fff;
+}
+.button:hover{
+    background: brown;
+}
+.button a{
+    text-decoration: none;
+    color: white;
+}
+.home5{
+    font-size: 30pt;
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 59%;
+}
+.home6{
+    position: absolute;
+    top: 66%;
+    left: 6%;
+}
+.work{
+    position: relative;
+    height: 400px;
+    background-color: white;
+}
+.work1{
+    font-size: 30pt;
+    font-weight: 500;
+    position: absolute;
+    left: 43%;
+    top: 13%;
+}
+.work3{
+    left: 15%;
+    margin: 230px 150px;
+    height: 80px;
+    width: 100px;
+    background-color: white;
+    position: relative;
+    color: black;
+    padding: 23px 12px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1px lightslategray;
+}
+.work7{
+    position: relative;
+    float: left;
+    left: 22%;
+    font-size: 18pt;
+}
+.work8{
+    position: absolute;
+    float: left;
+    left: 46%;
+    font-size: 18pt;
+}
+.work9{
+    position: relative;
+    float: left;
+    left: 62%;
+    font-size: 18pt;
+}
+.span1{
+    font-size: 13pt;
+    left: -30%;
+    position: absolute;
+    width: 270px;
+}
+.span2{
+    left: 12%;
+    position: absolute;
+}
+.span3{
+    left: 35%;
+    position: absolute;
+}
+.guide{
+    position: relative;
+    top: 20%;
+    height: 400px;
+    background-color: rgb(244, 239, 239);
+}
+.guide1{
+    font-size: 30pt;
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 10%;
+}
+.guide2{
+    font-size: 20pt;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+.khalti{
+    position: relative;
+    top: 20%;
+    height: 400px;
+    background-color: white;
+}
+.khalti1{
+    font-size: 40pt;
+    font-weight: 500;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+}
+.khalti2{
+    left: 30%;
+    top: 30%;
+    position: absolute;
+}
+.khalti3{
+    left: 40%;
+    top: 30%;
+    position: absolute;
+}
+.location{
+    position: relative;
+    top: 20%;
+    height: 430px;
+}
+.loc{
+    font-size: 30pt;
+    background-color: rgb(244, 239, 239);
+}
+.contact{
+    position: relative;
+    top: 27%;
+    height: 400px;
+    background-color: rgb(244, 239, 239);
+}
+.contact1{
+    font-size: 40pt;
+    font-weight: 500;
+    position: absolute;
+    left: 10%;
+    top: 4%;
+}
+.contact2{
+    position: absolute;
+    left: 35%;
+    top: 16%;
+    font-size: 20pt;
+}
+.email{
+    font-weight: bold;
+}
+.email1 a{
+    text-decoration: none;
+}
+.last{
+    position: relative;
+    top: 27%;
+    height: 400px;
+    background-color: burlywood; 
+}
+.last1{
+    left: 2%;
+    margin: 20px 150px;
+    height: 250px;
+    width: 250px;
+    position: relative;
+    color: black;
+    padding: 23px 12px;
+    display: inline-block;
+    
+}
+.last3{
+    font-size: 30pt;
+    font-weight: 500;
+    position: absolute;
+    left: 6%;
+    top: 1%;
+}
+.last1 ol {
+    font-size: 20pt;
+    margin-bottom: 20px;
+    left: 10%;
+    top: 20%;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    color:brown;
+}
+
+.last1 ol li {
+    list-style: none;   
+}
+.hr{
+    position: relative;
+    top: -6%;
+}
+.right{
+    position: absolute;
+    left: 10%;
+    font-size: 20pt;
+}
+.lastt{
+    position: relative;
+    top: 34%;
+    height: 400px;
+    background-color: burlywood;
+}
+

@@ -1,0 +1,31 @@
+.khwopa-heading {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  color: #553c9a;
+  text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.8);
+  background: url(/rockets.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+.khwopa {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  color: maroon;
+  text-shadow: 2px 2px 4px rgba(179, 147, 211, 0.8);
+  background: url(/rockets.png);
+  background-size: 250px;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+li {
+  color: black;
+  /* list-style-type: decimal;
+  margin-left: 20px;*/
+  /* margin-bottom: 10px; */
+  /* font-style: italic; */
+}
